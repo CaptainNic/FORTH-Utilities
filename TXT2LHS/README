@@ -1,0 +1,17 @@
+This utility converts FORTH code written in a text editor or IDE into the required block format for the proSeed (and some other FORTH devices).
+
+The format of each block is 16 lines by 64 columns with a 6 character block/line tag at the beginning of each line.
+
+----06/02/2011--------------------------------------
+Current Functionality:
+- formats code into blocks
+- removes all empty lines to compress code
+
+Problems:
+- lines longer than 64 characters are truncated, this can cause serious errors
+- the --> operator needs to be added so the LOAD command knows to continue loading pages
+
+Planned Features:
+- Comment removal to shrink code further
+- A reversal utility (LHS2TXT)
+----------------------------------------------------
