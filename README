@@ -1,0 +1,3 @@
+This is a collection of utilities I wrote to aid my programming, debugging, and testing of FORTH code.
+
+Most utilities are written to work specifically with the proSeed board by Lorax Works, LLC (www.loraxworks.com), but I have attempted to make them as universal as possible.
